@@ -5,3 +5,7 @@ html, body {
 #resumo p {
   text-align: justify;
 }
+
+.container-fluid {
+  padding-top: 58.6667px;
+}
