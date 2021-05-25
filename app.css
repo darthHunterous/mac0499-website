@@ -9,3 +9,7 @@ html, body {
 .container-fluid {
   padding-top: 58.6667px;
 }
+
+.bg-custom-grey {
+  background-color: #f5f5f5;
+}
