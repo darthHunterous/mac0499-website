@@ -30,6 +30,9 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#proposta">Proposta</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#final">Entrega Final</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -38,41 +41,36 @@
   <div
     class="container-fluid bg-custom-grey rounded-lg min-vh-100 text-center d-flex flex-column justify-content-center">
     <hr class="my-4">
-    <h1 class="display-5">MAC0499 - Trabalho de Conclusão de Curso</h1>
+    <h1 class="display-4">MAC0499 - Trabalho de Conclusão de Curso</h1>
+    <h2 class="display-5">Spotunes:</h2>
+    <h3 class="display-6">Uma aplicação web para organização de bibliotecas musicais digitais</h3>
     <p class="lead">Aluno: Édio Cerati Neto</p>
-    <p class="lead">Supervisor: Antônio Deusany de Carvalho Júnior</p>
+    <p class="lead">Supervisor: Antonio Deusany de Carvalho Júnior</p>
     <hr class="my-4">
   </div>
 
   <div id="resumo"
     class="container-fluid bg-white px-4 px-lg-0 rounded-lg min-vh-100 d-flex flex-column justify-content-center">
-    <h1 class="display-5 text-center mt-5 mt-md-2 mb-5">Resumo - Spotunes</h1>
+    <h1 class="display-5 text-center mt-5 mt-md-2 mb-5">Resumo</h1>
     <div class="row justify-content-center">
       <div class="col-lg-8">
-        <p class="lead mb-1">&emsp;O projeto de TCC consiste no desenvolvimento de um
-          sistema web
-          (até agora
-          chamado de
-          Spotunes)
-          que
-          permita ao usuário uma organização completa dos metadados de sua biblioteca de música, bem como o
-          desenvolvimento
-          de playlists inteligentes (auto atualizáveis com base nos critérios definidos pelo usuário) e efetuar
-          recomendações com tais dados da biblioteca dos usuários, levando em conta a atividade de seus amigos
-          adicionados
-          na plataforma.</p>
+        <p class="lead mb-1">&emsp;O projeto consistiu no desenvolvimento de um sistema web chamado Spotunes, que
+          permite ao usuário
+          uma organização completa dos metadados de sua biblioteca de músicas digitais, com dados e reprodução
+          baseados nos serviços do Spotify. A motivação se baseou em dar poder total ao usuário de organizar sua
+          biblioteca como melhor preferir, podendo editar os metadados das músicas de acordo com sua preferência,
+          bem como criar playlists da maneira que achar conveniente. Ele também pode exportar sua biblioteca em
+          JSON e importá-la, tendo sempre fácil acesso à informação criada.</p>
       </div>
     </div>
     <div class="row justify-content-center">
       <div class="col-lg-8">
-        <p class="lead mb-5">&emsp;A ideia seria integrar tal desenvolvimento da biblioteca com
-          serviços já consagrados de
-          streaming de
-          música (Spotify, Apple Music, Deezer, Youtube), de forma que estes serviços (já contratados e utilizados pelo
-          usuário) forneçam a capacidade de reprodução das músicas e que o Spotunes sirva como uma casca organizacional
-          para
-          tais serviços.</p>
-
+        <p class="lead mb-5">&emsp;Foram usadas tecnologias web, pois, além
+          de aplicações web serem de fácil usabilidade (requerem apenas um navegador convencional), também são
+          facilmente compatíveis entre plataformas e ambientes diferentes. Houve também um cuidado para deixar a
+          aplicação minimamente dependente de um back-end (utilizado apenas para buscas na API do Spotify). O
+          resultado final pode ser conferido em <a href="#" class="link-primary">https://spotunes.netlify.app/all</a>.
+        </p>
       </div>
     </div>
   </div>
@@ -87,14 +85,77 @@
           motivação
           para tal trabalho, objetivos a serem alcançados e um cronograma aproximado:</p>
         <div class="d-grid gap-2">
-          <a class="btn btn-primary btn-lg" href="assets/proposta.pdf" role="button">Baixar PDF <svg
-              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download"
+          <a class="btn btn-primary btn-lg" href="assets/proposta.pdf" target="_blank" role="button">Baixar Proposta
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download"
               viewBox="0 0 16 16">
               <path
                 d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
               <path
                 d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
             </svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="final"
+    class="container-fluid bg-white px-4 px-lg-0 rounded-lg min-vh-100 d-flex flex-column justify-content-center">
+    <h1 class="display-5 text-center mb-5">Entrega Final</h1>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 mt-5">
+        <p class="lead mb-1 text-center mb-2">Abaixo estão disponíveis o PDF da Monografia e o código final do Front-End
+          e Back-End da aplicação:</p>
+        <div class="d-grid gap-2">
+          <a class="btn btn-primary btn-lg" href="assets/monografia.pdf" target="_blank" role="button">Baixar Monografia
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download"
+              viewBox="0 0 16 16">
+              <path
+                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+              <path
+                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+            </svg></a>
+          <div class="row">
+            <div class="col-lg-6">
+              <a class="btn btn-danger btn-lg w-100" href="assets/spotunes-main.zip" role="button">Código do
+                Spotunes (.zip) <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-download" viewBox="0 0 16 16">
+                  <path
+                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                  <path
+                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                </svg></a>
+            </div>
+            <div class="col-lg-6">
+              <a class="btn btn-success btn-lg w-100" href="https://github.com/darthHunterous/spotunes" target="_blank"
+                role="button">Repositório Spotunes <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                </svg></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <a class="btn btn-danger btn-lg w-100" href="assets/spotunes-server-master.zip" role="button">Código do
+                Spotunes-Server
+                (.zip) <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-download" viewBox="0 0 16 16">
+                  <path
+                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                  <path
+                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                </svg></a>
+            </div>
+            <div class="col-lg-6">
+              <a class="btn btn-success btn-lg w-100" href="https://github.com/darthHunterous/spotunes-server"
+                target="_blank" role="button">Repositório
+                Spotunes-Server <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-github" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                </svg></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
